@@ -268,3 +268,57 @@ Por quê?
 
 Após copiar um repositório, é preciso existir um arquivo **".env"** para dar continuidade em um projeto.
 
+
+
+![enter image description here](https://i.postimg.cc/W46khRfm/Captura-de-tela-2025-08-18-200817.png)
+
+
+@vite('resources/css/app.css') ==
+
+
+![enter image description here](https://i.postimg.cc/KzWvYJFr/Captura-de-tela-2025-08-18-201240.png)
+isso ai são as telas " view"
+
+![enter image description here](https://i.postimg.cc/6q0Kvcxm/Captura-de-tela-2025-08-18-201656.png)
+esse ai é o comando pra criar um view novo !!!!!! "php artisan make:view testelegal"
+
+![enter image description here](https://i.postimg.cc/4NSMFqP1/Captura-de-tela-2025-08-18-202053.png)
+esse aí é o equivalente do href, e posso dar o nome no que eu quiser, tornando-a muito mais segura 
+
+    Route::get('/', function () {  == 
+
+**substituir o '/' pelo apelido da sua pagina bem segurinha legal**
+
+     return  view('welcome'); == 
+
+**substituir o '/welcome' pelo nome do arquivo em vs**
+
+![enter image description here](https://i.postimg.cc/1tr2Cz7g/Captura-de-tela-2025-08-18-202006.png)
+ficou assim bem legalzaoooo
+
+**
+
+# Aula de Tailwind
+**
+![vite](https://i.postimg.cc/KvLKjkjS/image.png)
+
+Vite = Compila arquivos, evitando um bundle completo e acelerando o desenvolvimento.
+
+> Vite usa o **ES Modules nativo** do navegador para carregar arquivos
+> sob demanda durante o desenvolvimento. Isso elimina a necessidade de fazerum bundle completo toda vez que o código muda, o que torna o processo **extremamente rápido**, mesmo em projetos grandes.
+ -Palavras do chatgpt
+
+ - Tailwind Documentation
+
+![enter image description here](https://i.postimg.cc/rFSSbYSr/image.png)
+
+Essencial e rica de informações
+
+
+
+## Glossário
+
+ - Clube FullStack = caras boens
+ - Tailwind css = biblioteca legal de laravel
+ - @vite = web bundle
+ -
